@@ -1,0 +1,32 @@
+{
+  "name": "weaviate-k6-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "yarn build && K6_CLOUD_TOKEN=$TOKEN K6 run --config options.json --out cloud dist/LoadTest.bundle.js",
+    "build": "webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.23.0",
+    "@babel/core": "^7.23.0",
+    "@babel/plugin-proposal-class-properties": "^7.18.6",
+    "@babel/plugin-proposal-object-rest-spread": "^7.20.7",
+    "@babel/preset-env": "^7.22.20",
+    "@babel/preset-typescript": "^7.23.0",
+    "@types/k6": "^0.46.3",
+    "@types/webpack": "^5.28.3",
+    "babel-loader": "^9.1.3",
+    "graphql": "^16.8.1",
+    "ts-loader": "^9.5.0",
+    "tslib": "^2.6.2",
+    "typescript": "^5.2.2",
+    "weaviate-ts-client": "^1.5.0",
+    "webpack": "^5.88.2"
+  },
+  "devDependencies": {
+    "webpack-cli": "^5.1.4"
+  }
+}

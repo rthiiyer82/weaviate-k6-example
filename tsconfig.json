@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "lib": ["es5", "es6", "dom", "dom.iterable"],
+    "target": "ES6",
+    "module": "commonjs",
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "node",
+    "composite": false,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "strict": true,
+    "isolatedModules": true,
+    "noImplicitThis": true,
+    "importHelpers": true,
+    "outDir": "dist",
+    "typeRoots": ["node_modules/@types"],
+    "paths": {
+      "@query": ["./src/query"],
+      "@config": ["./config.json"],
+      "@libraries": ["./src/lib"]
+    }
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
+}

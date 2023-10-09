@@ -1,0 +1,9 @@
+{
+  "_comments": "The following config would have multitenancy class created on multiple weaviate instances",
+  "thresholds": {
+    "http_req_failed": ["rate<0.1"],
+    "http_req_duration": ["p(95)<400"]
+  },
+  "vus": "1",
+  "iterations": "100"
+}
