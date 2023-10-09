@@ -65,9 +65,7 @@ The key metrics include:
 
 
 ## Improvements:
-<!-- 
     - Create a docker compose file to deploy the laod test framework on multinode k8 cluster
     - Run the test on cloud instead of local execution
     - Schedule to run the tests on regualr basis to monitor the performance of the system.
     - Add more scenarios to the framework including loading of dataset (large, medium and small) in JSON, CSV format (currently supported)
- -->
